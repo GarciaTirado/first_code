@@ -11,8 +11,14 @@ body {
   background-color: yellowgreen;
   padding: 20px;
   text-align: center;
-  height: 50vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.header h1 {
+  font-size: 60px;
+}
+
+.header p {
+  font-size: 40px;
 }
 
 /* Style the top navigation bar */
@@ -22,6 +28,25 @@ body {
   float: left;
   width: 100%;
   padding: 20px 20%;
+}
+.column h2{
+  color: green; 
+  text-align: center;
+}
+
+.gallery {
+  padding: 20px;
+  float: left;
+  width: 33.33%;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery desc {
+  padding: 15px;
+  text-align: center;
 }
 
 /* Clear floats after the columns */

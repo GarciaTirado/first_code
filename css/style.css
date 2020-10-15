@@ -60,6 +60,26 @@ body {
   text-align: center;
 }
 
+.four-column {
+  padding: 20px;
+  float: left;
+  width: 25%; 
+}
+
+#footer-a {
+  background-color: #21252995;
+}
+
+#footer-a p {
+  color: white;
+}
+
+#footer-b {
+  color: #868e96;
+  background-color: #212529;
+  text-align: center;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
